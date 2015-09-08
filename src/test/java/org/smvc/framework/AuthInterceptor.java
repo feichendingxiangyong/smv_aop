@@ -1,6 +1,7 @@
-package org.smvc;
+package org.smvc.framework;
 
-import org.smvc.interceptor.Interceptor;
+import org.smvc.framework.aop.Invocation;
+import org.smvc.framework.aop.interceptor.Interceptor;
 //方法拦截器
 public class AuthInterceptor implements Interceptor {
     private String userName;

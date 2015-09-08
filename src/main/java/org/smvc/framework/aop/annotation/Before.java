@@ -2,7 +2,7 @@
  * @author Big Martin
  *
  */
-package org.smvc.annotation;
+package org.smvc.framework.aop.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -10,7 +10,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.smvc.interceptor.Interceptor;
+import org.smvc.framework.aop.interceptor.Interceptor;
 
 /**
  * Before is used to configure Interceptor and Validator.

@@ -1,7 +1,8 @@
-package org.smvc;
+package org.smvc.framework;
 
 import org.junit.Test;
-import org.smvc.interceptor.Interceptor;
+import org.smvc.framework.aop.ProxyFactory;
+import org.smvc.framework.aop.interceptor.Interceptor;
 
 public class TableDaoFactoryTest {
     

@@ -2,9 +2,9 @@
  * @author Big Martin
  *
  */
-package org.smvc;
+package org.smvc.framework.aop;
 
-import org.smvc.interceptor.Interceptor;
+import org.smvc.framework.aop.interceptor.Interceptor;
 
 import net.sf.cglib.proxy.Enhancer;
 

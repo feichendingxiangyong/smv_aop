@@ -1,7 +1,7 @@
 /**
  * ClassUtil.java
  */
-package org.smvc;
+package org.smvc.framework.aop;
 
 import java.io.File;
 import java.io.FileFilter;

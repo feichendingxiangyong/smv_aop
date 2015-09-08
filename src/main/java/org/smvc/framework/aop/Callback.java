@@ -2,7 +2,7 @@
  * @author Big Martin
  *
  */
-package org.smvc;
+package org.smvc.framework.aop;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -10,9 +10,9 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.smvc.annotation.Before;
-import org.smvc.annotation.Clear;
-import org.smvc.interceptor.Interceptor;
+import org.smvc.framework.aop.annotation.Before;
+import org.smvc.framework.aop.annotation.Clear;
+import org.smvc.framework.aop.interceptor.Interceptor;
 
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

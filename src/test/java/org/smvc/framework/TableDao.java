@@ -2,10 +2,10 @@
  * @author Big Martin
  *
  */
-package org.smvc;
+package org.smvc.framework;
 
-import org.smvc.annotation.Before;
-import org.smvc.annotation.Clear;
+import org.smvc.framework.aop.annotation.Before;
+import org.smvc.framework.aop.annotation.Clear;
 
 @Before(value={LogInterceptor.class, AuthInterceptor.class})
 public class TableDao {

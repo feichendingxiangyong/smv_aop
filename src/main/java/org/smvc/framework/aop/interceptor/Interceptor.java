@@ -2,9 +2,9 @@
  * @author Big Martin
  *
  */
-package org.smvc.interceptor;
+package org.smvc.framework.aop.interceptor;
 
-import org.smvc.Invocation;
+import org.smvc.framework.aop.Invocation;
 
 /**
  * Interceptor.
